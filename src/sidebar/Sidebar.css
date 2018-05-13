@@ -1,0 +1,19 @@
+.Sidebar {
+  grid-column: 1 / 2;
+  background: #323334;
+  font-size: 1.25rem;
+}
+.Sidebar ul {
+  padding: 1rem 2rem;
+}
+.Sidebar ul li {
+  margin: .5rem 0;
+  cursor: pointer;
+}
+a {
+	color: #fffbfc;
+}
+a.active {
+  text-decoration: none;
+  color: #ef6461;
+}

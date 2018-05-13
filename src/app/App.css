@@ -1,0 +1,19 @@
+.App {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  grid-template-rows: 3rem auto;
+  grid-gap: 1rem;
+  padding: 1rem;
+}
+
+.App__header {
+  justify-self: stretch;
+  align-self: stretch;
+  grid-column: 1 / span 2;
+  border-bottom: 2px solid #fffbfc;
+}
+
+.App__title {
+  text-align: center;
+  font-size: 2rem;
+}

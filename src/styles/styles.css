@@ -1,0 +1,24 @@
+body {
+	color: #fffbfc;
+	font-family: 'Roboto Mono', monospace;
+	background: #252627;
+}
+/* i.arrow {
+	border: solid #fffbfc;
+	border-width: 0 3px 3px 0;
+	display: inline-block;
+	padding: 3px;
+	margin: 3px;
+}
+i.arrow.right {
+		transform: rotate(-45deg);
+}
+i.arrow.left {
+  transform: rotate(135deg);
+}
+i.arrow.up {
+  transform: rotate(-135deg);
+}
+i.arrow.down {
+  transform: rotate(45deg);
+} */
