@@ -7,13 +7,6 @@
   padding: 1rem 2rem;
 }
 .Sidebar ul li {
-  margin: .5rem 0;
+  margin: 0.5rem 0;
   cursor: pointer;
-}
-a {
-	color: #fffbfc;
-}
-a.active {
-  text-decoration: none;
-  color: #ef6461;
 }

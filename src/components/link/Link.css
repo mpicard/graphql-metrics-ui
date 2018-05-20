@@ -1,0 +1,14 @@
+a {
+  outline: 0;
+  text-decoration: none;
+  color: #fffbfc;
+}
+a:hover,
+a:active,
+a:focus {
+  text-decoration: underline;
+  color: #f5a2a0;
+}
+a.active {
+  color: #ef6461;
+}
