@@ -27,3 +27,15 @@ export function prettyDuration(ns, digits = 1) {
   }
   return ns + 'ns';
 }
+
+/**
+ * Group an array into buckets based on predicate!
+ * @param {Array} arr a collection
+ * @param {Function} fn a predicate
+ */
+export function groupBy(arr, fn) {
+  return arr.reduce((acc, val) => {
+    (acc[fn(val)] = acc[fn(val)] || []).push(val);
+    return acc;
+  }, {});
+}

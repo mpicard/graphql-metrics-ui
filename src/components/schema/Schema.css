@@ -1,0 +1,12 @@
+.Schema th,
+.Schema td {
+  padding: 0.5rem;
+  text-align: left;
+}
+/* .Schema tbody tr:first-child {
+  border-bottom: 1px solid #fffbfc;
+} */
+.Schema th:first-child,
+.Schema td:first-child {
+  /* text-align: ; */
+}
