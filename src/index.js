@@ -9,6 +9,8 @@ import App from './components/app/App';
 import registerServiceWorker from './registerServiceWorker';
 
 const uri = process.env.GRAPHQL_URI || 'http://localhost:8000/graphql';
+console.log(process.env, uri);
+
 const client = new ApolloClient({ uri });
 
 ReactDOM.render(
